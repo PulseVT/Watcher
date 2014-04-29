@@ -1,0 +1,324 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+*::-webkit-input-placeholder {
+    color: black;
+    font-size: 15px;
+    position: relative;
+    margin-top: 2px;
+    top: 3px;
+}
+
+*:-moz-placeholder {
+    color: black;
+    font-size: 15px;
+    position: relative;
+    margin-top: 2px;
+    top: 3px;
+}
+
+*:-ms-input-placeholder {
+    /* IE10+ */
+    color: black;
+    font-size: 15px;
+    position: relative;
+    margin-top: 2px;
+    top: 3px;
+}
+*::-webkit-textarea-placeholder {
+    color: black;
+    font-size: 15px;
+    position: relative;
+    margin-top: 2px;
+    top: 3px;
+}
+
+*:-ms-textarea-placeholder {
+    /* IE10+ */
+    color: black;
+    font-size: 15px;
+    position: relative;
+    margin-top: 2px;
+    top: 3px;
+}
+body{
+	.modal{
+		opacity: 1;
+	}
+	.main{
+		padding:40px;
+	}
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	// overflow: hidden;
+	.segment-div-first{
+		width: 100%;
+		height: 100%;
+	}
+	.marginTop40{
+		margin-top: 27px;
+	}
+	.bg-img{
+		position: fixed;
+		width:100%;
+		height:100%;
+	}
+	.foreground{
+		position: absolute;
+		width:100%;
+		height:100%;
+	}
+	.buttons{
+		text-align: center;
+	}
+	.page-header{
+		.header-button{
+			position: absolute;
+			width:20%;
+			height: 30px;						
+			&.right{
+				right:0px;
+			}
+			&.left{
+				left:0px;				
+				img{
+					left:-7%;
+				}
+			}
+			img{
+				width:25px;
+				height:24px;
+				position: relative;
+				top:2px;
+			}
+		}
+		position: fixed;
+		margin: 0px; 
+		padding: 0px;
+		border: none;
+		width: 100%;
+		text-align: center;
+		// background-image: url('../img/resources/header/header-bg-left.png');
+		background-repeat: no-repeat;
+		background-size: contain;
+		.header-text-div{
+			position: absolute;
+			width:100%;
+			.text{
+				position: relative;
+				top:4px; 
+				text-transform: uppercase;
+				font-size: 14px;
+				font-weight: bold;
+				color: white;
+			}
+		}
+	}
+	#login{
+		.additional-buttons{
+			position: relative;
+			bottom: 56%;
+			text-align: center;
+		}
+	}
+	#signup{
+		.additional-buttons{
+			position: relative;
+			bottom: 30%;
+			text-align: center;
+		}
+	}
+	#login, #signup{
+		input, textarea{
+			border:none;
+			box-shadow: inset 2px 2px 5px 0px gray;
+			padding: 3px 6px;
+		}
+		width: 100%;
+		height: 100%;
+		.foreground{
+			.form-div{
+				height: 100%;
+			}
+			.button{
+				background-size: 100%;
+				border-radius: 4px;
+				background-repeat: no-repeat;
+				height: 28px;
+				width: 80%; 
+				margin: 10px auto;					
+				text-align: center;
+				.text{
+					text-transform: uppercase;
+					color: white;
+					font-size: 10px;
+					position: relative;
+					top: 8px;
+				}
+				&.login-submit, &.signup-submit{
+					background-color: #2ea6d8;
+					background-image: url('../img/resources/controls/control-button-bg1@2x.png');
+				}
+				&.signup,&.login{
+					display: inline-block;
+					background-color: #3f6592;
+					background-image: url('../img/resources/controls/control-button-bg2@2x.png');
+				}
+			}
+			.form{
+				.error-div{
+					text-align: center;
+					color: red;
+					text-transform: uppercase;
+					font-weight: bolder;
+				}
+				margin-top: 10px;					
+				.field{
+					margin: 10px 0px auto;
+					&.span12{
+						text-align: center;
+						input,textarea{
+							width:80%;
+						}
+					}
+					&.span6{
+						input,textarea{
+							width:79%;
+						}
+						&.left{
+							text-align: right;
+							padding-right: 2.5%;
+						}
+						&.right{
+							text-align: left;
+							padding-left: 2.5%;
+						}
+					}
+					&.birthday{
+						img{
+							position: absolute;
+							width:28px;
+							margin-left: -28px;
+							margin-top: -1px;
+						}
+						input{
+							padding-right: 30px;
+						}
+					}
+					&.avatar{
+						input[type='file']{
+							position: absolute;
+							opacity:0;
+							margin: 0 10%;							
+						}
+						.input-append{
+							margin: 0 10%;
+							a{
+								width: 30%;
+								position: relative;
+								top: -2px;
+								margin-left: -4px;
+								padding: 6px;
+								color: white;
+								text-transform: uppercase;
+								font-size: 10px;
+								outline: none;
+								border: none;
+								-webkit-border-radius: 0 4px 4px 0;
+								-moz-border-radius: 0 4px 4px 0;
+								border-radius: 0 4px 4px 0;
+								background-image: -moz-linear-gradient(top, #6c7892, #41485a);
+								background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6c7892), to(#41485a));
+								background-image: -webkit-linear-gradient(top, #6c7892, #41485a);
+								background-image: -o-linear-gradient(top, #6c7892, #41485a);
+								background-image: linear-gradient(to bottom, #6c7892, #41485a);
+							}
+							input{
+								width: 70%;
+								-webkit-border-radius: 4px 0 0 4px;
+								-moz-border-radius: 4px 0 0 4px;
+								border-radius: 4px 0 0 4px;
+							}
+						}
+
+					}
+					input, textarea{						
+						&[type='radio']{
+							-webkit-backface-visibility: hidden;
+							width:13px;
+							height:13px;
+							top:-3px;
+							position: relative;
+						}
+						border-radius: 4px;
+						outline: none;
+						&:focus{
+							box-shadow: 0 0 10px #1a8fd4;
+						}
+					}
+				}
+			}
+		}
+	}
+	#root{
+		.cycle-slideshow {
+			width: 100%;
+			height: 100%;
+		}
+		width: 100%;
+		height: 100%;
+		.foreground{
+			z-index: 101;
+			text-align: center;
+			img.iyans-main-logo{
+				width:85%;
+				top:5%;
+				position: relative;
+			}
+			.buttons{
+				position: absolute;
+				bottom: 0px;
+				.copyright-text{
+					font-size: 9px;
+					bottom: 5px;
+					position: relative;
+				}
+				.button{
+					text-align: center;
+					background-size: 100%;
+					background-repeat: no-repeat;
+					position: relative;
+					width:222px;
+					height: 28px;
+					margin: 9px auto;				
+					&.login{
+						background-image: url('../img/resources/controls/login-button-bg@2x.png');	
+						.iyans-icon{
+							background-image: url('../img/resources/common-icons/iyans-icon@2x.png');
+							background-repeat: no-repeat;
+							background-size: 100%;
+							vertical-align: text-top;
+							height: 24px;
+							width: 24px;
+							display: inline-block;
+							margin-left: -10px;
+						}
+						font-weight: bold;
+					}
+					&.signup{
+						background-image: url('../img/resources/controls/signup-button-bg@2x.png');
+					}
+					.text{
+						text-transform: uppercase;
+						color: white;
+						font-size: 10px;
+						position: relative;
+						top: 3px;
+					}
+				}
+			}
+		}
+	}
+}

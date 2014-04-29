@@ -1,0 +1,207 @@
+body [class*="span"] {
+  margin: 0px;
+}
+body .bolder {
+  font-weight: bolder;
+}
+body #testvideo {
+  display: none !important;
+}
+body .centered {
+  text-align: center;
+}
+body .favorites li {
+  list-style: none;
+}
+body .notifications li {
+  list-style: none;
+}
+body .more-load {
+  height: 30px;
+  background-color: #c3d9dd;
+  text-align: center;
+}
+body .navbar .container {
+  max-width: 100%;
+}
+body .select2-result-label {
+  text-align: left;
+}
+body .select2-result-label img {
+  width: 30px;
+  height: 35px;
+}
+body .select2-chosen {
+  text-align: left;
+}
+body .select2-chosen img {
+  margin-top: -5px;
+  width: 24px;
+  height: 26px;
+}
+body .select2-drop {
+  margin-top: -25px;
+}
+body .user-username,
+body .bolder {
+  font-weight: bolder;
+}
+body .current-tab-name {
+  color: #999999 !important;
+}
+body .search-users {
+  margin-top: 13px;
+  margin-left: 10px;
+}
+body .search-users > span {
+  color: white;
+}
+body .search-users .select2-container {
+  width: 225px;
+}
+body .change-current-users {
+  margin-top: 13px;
+  margin-left: 10px;
+}
+body .change-current-users > span {
+  color: white;
+}
+body .change-current-users .select2-container {
+  width: 225px;
+}
+body .main {
+  margin-top: 30px;
+  text-align: center;
+}
+body .main .dashboard .followers,
+body .main .dashboard .followings {
+  text-align: left;
+}
+body .main .dashboard .followers li,
+body .main .dashboard .followings li {
+  list-style: none;
+  text-align: left;
+}
+body .main .dashboard .followers li span,
+body .main .dashboard .followings li span {
+  cursor: pointer;
+}
+body .main .dashboard .dashboard-follow-text {
+  text-align: left;
+}
+body .main .user-data {
+  margin-bottom: 30px;
+}
+body .main .user-data .user-img img {
+  border-radius: 4px;
+  border: 10px solid green;
+  height: 130px;
+  width: 120px;
+  float: left;
+}
+body .main .user-data .user-info {
+  top: 25px;
+  left: 20px;
+  position: relative;
+  text-align: left;
+}
+body .notifications .notification {
+  height: 120px;
+}
+body .yans .comments {
+  text-align: left;
+  padding-left: 7%;
+}
+body .yans .comments img.comment-img {
+  width: 40px;
+  height: 45px;
+  border-radius: 4px;
+  border: 3px solid white;
+}
+body .yans .comments .comments-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #989898;
+}
+body .yans .open-comments {
+  background-color: #94dd92;
+}
+body .yans .buttons button.remove-button {
+  background-color: #c5aee1;
+}
+body .yans.home .yan-img,
+body .yans.home .user-name {
+  cursor: pointer;
+}
+body .yans .add-yan {
+  text-align: left;
+}
+body .yans .add-yan .attachment video {
+  width: 80%;
+}
+body .yans .add-yan .attach-btn {
+  margin-left: 197px;
+}
+body .yans ul.yans-list {
+  padding: 0px;
+  margin: 0px;
+}
+body .yans ul.yans-list li {
+  list-style: none;
+}
+body .yans ul.yans-list li .yan {
+  background-color: #e3ffe3;
+  padding: 10px;
+}
+body .yans ul.yans-list li .yan .yan-image img {
+  width: 100%;
+  height: 100%;
+}
+body .yans ul.yans-list li .yan img.yan-img {
+  width: 50px;
+  height: 55px;
+  border-radius: 4px;
+  border: 3px solid white;
+}
+body .yans ul.yans-list li .yan .yan-content {
+  text-align: left;
+}
+body .yans ul.yans-list li .yan .yan-content .user-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+body #attachFile .percent {
+  position: absolute;
+  width: 300px;
+  height: 14px;
+  z-index: 1;
+  text-align: center;
+  font-size: 0.8em;
+  color: white;
+}
+body #attachFile .progress-bar {
+  width: 300px;
+  height: 14px;
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#6666cc), to(#4b4b95));
+  border-image: initial;
+}
+body #attachFile .uploaded {
+  padding: 0;
+  height: 14px;
+  border-radius: 10px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#66cc00), to(#4b9500));
+  border-image: initial;
+}
+body #attachFile .video-name {
+  margin-top: 8px;
+}
+body #attachFile .upload-section .upload-input {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+body #attachFile .upload-section .upload-progress {
+  display: inline-block;
+  margin-top: 10px;
+}

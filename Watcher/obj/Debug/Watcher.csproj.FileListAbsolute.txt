@@ -1,0 +1,9 @@
+C:\Projects\Watcher\Watcher\bin\Debug\Watcher.exe.config
+C:\Projects\Watcher\Watcher\bin\Debug\Watcher.exe
+C:\Projects\Watcher\Watcher\bin\Debug\Watcher.pdb
+C:\Projects\Watcher\Watcher\obj\Debug\Watcher.csprojResolveAssemblyReference.cache
+C:\Projects\Watcher\Watcher\obj\Debug\Watcher.Form1.resources
+C:\Projects\Watcher\Watcher\obj\Debug\Watcher.Properties.Resources.resources
+C:\Projects\Watcher\Watcher\obj\Debug\Watcher.csproj.GenerateResource.Cache
+C:\Projects\Watcher\Watcher\obj\Debug\Watcher.exe
+C:\Projects\Watcher\Watcher\obj\Debug\Watcher.pdb

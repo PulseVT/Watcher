@@ -1,0 +1,348 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+*::-webkit-input-placeholder {
+  color: black;
+  font-size: 15px;
+  position: relative;
+  margin-top: 2px;
+  top: 3px;
+}
+*:-moz-placeholder {
+  color: black;
+  font-size: 15px;
+  position: relative;
+  margin-top: 2px;
+  top: 3px;
+}
+*:-ms-input-placeholder {
+  /* IE10+ */
+
+  color: black;
+  font-size: 15px;
+  position: relative;
+  margin-top: 2px;
+  top: 3px;
+}
+*::-webkit-textarea-placeholder {
+  color: black;
+  font-size: 15px;
+  position: relative;
+  margin-top: 2px;
+  top: 3px;
+}
+*:-ms-textarea-placeholder {
+  /* IE10+ */
+
+  color: black;
+  font-size: 15px;
+  position: relative;
+  margin-top: 2px;
+  top: 3px;
+}
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+body .modal {
+  opacity: 1;
+}
+body .main {
+  padding: 40px;
+}
+body .segment-div-first {
+  width: 100%;
+  height: 100%;
+}
+body .marginTop40 {
+  margin-top: 27px;
+}
+body .bg-img {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+body .foreground {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+body .buttons {
+  text-align: center;
+}
+body .page-header {
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  width: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+body .page-header .header-button {
+  position: absolute;
+  width: 20%;
+  height: 30px;
+}
+body .page-header .header-button.right {
+  right: 0px;
+}
+body .page-header .header-button.left {
+  left: 0px;
+}
+body .page-header .header-button.left img {
+  left: -7%;
+}
+body .page-header .header-button img {
+  width: 25px;
+  height: 24px;
+  position: relative;
+  top: 2px;
+}
+body .page-header .header-text-div {
+  position: absolute;
+  width: 100%;
+}
+body .page-header .header-text-div .text {
+  position: relative;
+  top: 4px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+body #login .additional-buttons {
+  position: relative;
+  bottom: 56%;
+  text-align: center;
+}
+body #signup .additional-buttons {
+  position: relative;
+  bottom: 30%;
+  text-align: center;
+}
+body #login,
+body #signup {
+  width: 100%;
+  height: 100%;
+}
+body #login input,
+body #signup input,
+body #login textarea,
+body #signup textarea {
+  border: none;
+  box-shadow: inset 2px 2px 5px 0px gray;
+  padding: 3px 6px;
+}
+body #login .foreground .form-div,
+body #signup .foreground .form-div {
+  height: 100%;
+}
+body #login .foreground .button,
+body #signup .foreground .button {
+  background-size: 100%;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  height: 28px;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
+body #login .foreground .button .text,
+body #signup .foreground .button .text {
+  text-transform: uppercase;
+  color: white;
+  font-size: 10px;
+  position: relative;
+  top: 8px;
+}
+body #login .foreground .button.login-submit,
+body #signup .foreground .button.login-submit,
+body #login .foreground .button.signup-submit,
+body #signup .foreground .button.signup-submit {
+  background-color: #2ea6d8;
+  background-image: url('../img/resources/controls/control-button-bg1@2x.png');
+}
+body #login .foreground .button.signup,
+body #signup .foreground .button.signup,
+body #login .foreground .button.login,
+body #signup .foreground .button.login {
+  display: inline-block;
+  background-color: #3f6592;
+  background-image: url('../img/resources/controls/control-button-bg2@2x.png');
+}
+body #login .foreground .form,
+body #signup .foreground .form {
+  margin-top: 10px;
+}
+body #login .foreground .form .error-div,
+body #signup .foreground .form .error-div {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+body #login .foreground .form .field,
+body #signup .foreground .form .field {
+  margin: 10px 0px auto;
+}
+body #login .foreground .form .field.span12,
+body #signup .foreground .form .field.span12 {
+  text-align: center;
+}
+body #login .foreground .form .field.span12 input,
+body #signup .foreground .form .field.span12 input,
+body #login .foreground .form .field.span12 textarea,
+body #signup .foreground .form .field.span12 textarea {
+  width: 80%;
+}
+body #login .foreground .form .field.span6 input,
+body #signup .foreground .form .field.span6 input,
+body #login .foreground .form .field.span6 textarea,
+body #signup .foreground .form .field.span6 textarea {
+  width: 79%;
+}
+body #login .foreground .form .field.span6.left,
+body #signup .foreground .form .field.span6.left {
+  text-align: right;
+  padding-right: 2.5%;
+}
+body #login .foreground .form .field.span6.right,
+body #signup .foreground .form .field.span6.right {
+  text-align: left;
+  padding-left: 2.5%;
+}
+body #login .foreground .form .field.birthday img,
+body #signup .foreground .form .field.birthday img {
+  position: absolute;
+  width: 28px;
+  margin-left: -28px;
+  margin-top: -1px;
+}
+body #login .foreground .form .field.birthday input,
+body #signup .foreground .form .field.birthday input {
+  padding-right: 30px;
+}
+body #login .foreground .form .field.avatar input[type='file'],
+body #signup .foreground .form .field.avatar input[type='file'] {
+  position: absolute;
+  opacity: 0;
+  margin: 0 10%;
+}
+body #login .foreground .form .field.avatar .input-append,
+body #signup .foreground .form .field.avatar .input-append {
+  margin: 0 10%;
+}
+body #login .foreground .form .field.avatar .input-append a,
+body #signup .foreground .form .field.avatar .input-append a {
+  width: 30%;
+  position: relative;
+  top: -2px;
+  margin-left: -4px;
+  padding: 6px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  outline: none;
+  border: none;
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  background-image: -moz-linear-gradient(top, #6c7892, #41485a);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6c7892), to(#41485a));
+  background-image: -webkit-linear-gradient(top, #6c7892, #41485a);
+  background-image: -o-linear-gradient(top, #6c7892, #41485a);
+  background-image: linear-gradient(to bottom, #6c7892, #41485a);
+}
+body #login .foreground .form .field.avatar .input-append input,
+body #signup .foreground .form .field.avatar .input-append input {
+  width: 70%;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+body #login .foreground .form .field input,
+body #signup .foreground .form .field input,
+body #login .foreground .form .field textarea,
+body #signup .foreground .form .field textarea {
+  border-radius: 4px;
+  outline: none;
+}
+body #login .foreground .form .field input[type='radio'],
+body #signup .foreground .form .field input[type='radio'],
+body #login .foreground .form .field textarea[type='radio'],
+body #signup .foreground .form .field textarea[type='radio'] {
+  -webkit-backface-visibility: hidden;
+  width: 13px;
+  height: 13px;
+  top: -3px;
+  position: relative;
+}
+body #login .foreground .form .field input:focus,
+body #signup .foreground .form .field input:focus,
+body #login .foreground .form .field textarea:focus,
+body #signup .foreground .form .field textarea:focus {
+  box-shadow: 0 0 10px #1a8fd4;
+}
+body #root {
+  width: 100%;
+  height: 100%;
+}
+body #root .cycle-slideshow {
+  width: 100%;
+  height: 100%;
+}
+body #root .foreground {
+  z-index: 101;
+  text-align: center;
+}
+body #root .foreground img.iyans-main-logo {
+  width: 85%;
+  top: 5%;
+  position: relative;
+}
+body #root .foreground .buttons {
+  position: absolute;
+  bottom: 0px;
+}
+body #root .foreground .buttons .copyright-text {
+  font-size: 9px;
+  bottom: 5px;
+  position: relative;
+}
+body #root .foreground .buttons .button {
+  text-align: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 222px;
+  height: 28px;
+  margin: 9px auto;
+}
+body #root .foreground .buttons .button.login {
+  background-image: url('../img/resources/controls/login-button-bg@2x.png');
+  font-weight: bold;
+}
+body #root .foreground .buttons .button.login .iyans-icon {
+  background-image: url('../img/resources/common-icons/iyans-icon@2x.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  vertical-align: text-top;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  margin-left: -10px;
+}
+body #root .foreground .buttons .button.signup {
+  background-image: url('../img/resources/controls/signup-button-bg@2x.png');
+}
+body #root .foreground .buttons .button .text {
+  text-transform: uppercase;
+  color: white;
+  font-size: 10px;
+  position: relative;
+  top: 3px;
+}
